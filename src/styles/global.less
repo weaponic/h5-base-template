@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+// color
+@color-primary: #2b86fc;
+@color-danger: #fa5555;
+@color-safe: #36d87c;
+@color-default: rgba(0,0,0, 0.65);
+@color-white: white;
+@color-black: rgba(0,0,0, 0.85);
+
+// font size
+@fz-xxs: 22px;
+@fz-xs: 24px;
+@fz-sm: 26px;
+@fz-md: 28px;
+@fz-lg: 32px;
+@fz-xl: 36px;
+@fz-tag: @fz-xxs;
+@fz-content: @fz-md;
+@fz-title: @fz-lg;
+
+// margin padding
+@space-xs: 12px;
+@space-sm: 24px;
+@space-md: 30px;
+@space-lg: 36px;
+
+@dialog-border-radius: 20px;
+@dialog-min-height: 100px;
+
+.tag-style() {
+  display: inline-block;
+  white-space: nowrap;
+  font-size: @fz-xs;
+}
+
+.text-no-wrap() {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.page-wrapper() {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: @color-white;
+  z-index: 100;
+}
+
+.flex-center() {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.absolute-center() {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
