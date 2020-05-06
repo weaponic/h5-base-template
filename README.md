@@ -1,24 +1,9 @@
-# h5-template
+# h5-base-template
+移动端H5基础项目架子 UI框架@Vant UI
 
-## Project setup
-```
-npm install
-```
+### `npm install` 安装
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### `npm run serve` 运行
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### `npm run build` 打包
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
